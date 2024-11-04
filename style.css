@@ -1,9 +1,11 @@
 #banner {
     height: 90vh;
-    background: linear-gradient(to right, hsla(0, 100%, 97%, 0), rgba(14, 13, 13, 0.432)), url('./pictures/ew.jpg');
+    background: linear-gradient(to right, hsla(0, 48%, 94%, 0), rgba(255, 255, 255, 0)), url('./pictures/ew.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    backdrop-filter: blur(5px);
+    color: rgba(115, 117, 101, 0.897);
     
 }
 .btn {
@@ -11,9 +13,9 @@
     font-weight: 1000;
     letter-spacing: 0.5px;
     border-radius: 70px;
-    color: rgba(222, 231, 248, 0.644);
+    color: rgba(0, 48, 20, 0.863);
     border-color: beige;
-    background-color: rgba(2, 23, 37, 0.877);
+    background-color: rgba(5, 92, 23, 0.185);
 }
 .btn :hover{
     background-color: rgb(2, 32, 32);
@@ -23,7 +25,7 @@
 }
 .btn-brand{
     padding-left: 15px 30px;
-    background-color: rgb(108, 190, 238);
+    background-color: rgba(2, 59, 10, 0.418);
     border: 0cap solid rgb(0, 7, 22);
 }
 section{
@@ -46,7 +48,7 @@ section{
     transition: all 0.4s ease;
 }
 .card:hover{
-    background-color: rgb(134, 127, 233);
+    background-color: rgba(18, 119, 5, 0.699);
 }
 .card:hover .card-text, .card-hover .card-title{
     color: rgb(36, 117, 189);
